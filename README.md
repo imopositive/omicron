@@ -22,9 +22,9 @@
         <service android:name=".SpyService"/>
     </application>
 </manifest>
-...
+```
 ## MainActivity.java:
-...
+```
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
