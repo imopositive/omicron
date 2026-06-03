@@ -1,0 +1,2 @@
+# omicron
+The modern ghost
