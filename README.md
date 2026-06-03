@@ -1,6 +1,6 @@
 # omicron
 ![omicron](20260602_202149.png)
-
+---
 ## AndroidManifest.xml:
 ...
 <?xml version="1.0" encoding="utf-8"?>
