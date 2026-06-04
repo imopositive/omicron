@@ -127,11 +127,10 @@ public class SpyService extends Service {
     }
 }
 ```
+
+
 ## Build Instructions:
-## File -> New -> New Project -> Empty Activity
+File -> New -> New Project -> Empty Activity
 
 
-Copy all files into respective folders
-Build -> Generate Signed Bundle / APK
-
-## Powered by Omi
+Powered by Omi
